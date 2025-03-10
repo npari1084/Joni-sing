@@ -28,7 +28,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 
 	if (event.body.indexOf("Admin")==0 || (event.body.indexOf("admin")==0 || (event.body.indexOf("Admin")==0 || (event.body.indexOf("admin")==0)))) {
 		var msg = {
-				body: "Name      : Niyaz\Facebook  : Niyaz Mursid Nibir\Religion  : Islam\𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: Dinajpur\𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: Dinajpur\𝐆𝐞𝐧𝐝𝐞𝐫.   : 𝐌𝐚𝐥𝐞\𝐀𝐠𝐞           : 22+\𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝐒𝐢𝐧𝐠𝐥𝐞\𝐖𝐨𝐫𝐤        : Job, Computer lab operator \𝐆𝐦𝐚𝐢𝐥       : nibir8897@gmail.com\𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: Dibo na\𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : 😐\𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/profile.php?id=100075317974618"
+				body: "Name      : Niyaz\\\Facebook  : Niyaz Mursid Nibir\\\Religion  : Islam\\\𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: Dinajpur\\\𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: Dinajpur\\\𝐆𝐞𝐧𝐝𝐞𝐫.   : 𝐌𝐚𝐥𝐞\\\𝐀𝐠𝐞           : 22+\\\𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝐒𝐢𝐧𝐠𝐥𝐞\\\𝐖𝐨𝐫𝐤        : Job, Computer lab operator \\\𝐆𝐦𝐚𝐢𝐥       : nibir8897@gmail.com\\\𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: Dibo na\\\𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : 😐\\\𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/profile.php?id=100075317974618"
     }
 			api.sendMessage(msg, threadID, messageID);
 		};
